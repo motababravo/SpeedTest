@@ -49,7 +49,7 @@ public class SpeedTestServlet extends HttpServlet {
 	/** {@inheritDoc} */
 	@Override
 	public String getServletInfo() {
-		return "SpeedTestServlet, copyright (c) 2015 Cédrik LIME";
+		return "SpeedTestServlet, copyright (c) 2015 CÃ©drik LIME";
 	}
 
 	/** {@inheritDoc} */
@@ -81,7 +81,7 @@ public class SpeedTestServlet extends HttpServlet {
 				output.println();
 				output.println();
 				output.println();
-				output.println("Sources: https://github.com/javabean/SpeedTest");
+				output.println("Sources: https://github.com/motababravo/SpeedTest");
 			}
 			return;
 		}
