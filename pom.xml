@@ -116,7 +116,7 @@
 	<!-- Build Settings -->
 	<!-- - - - - - - -  -->
 
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<properties>
 		<project.build.sourceEncoding>ISO-8859-15</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
