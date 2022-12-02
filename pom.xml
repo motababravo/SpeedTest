@@ -153,6 +153,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-enforcer-plugin</artifactId><!-- use -Denforcer.skip=true to bypass -->
+				<version>3.1.0</version>
 				<executions>
 					<execution>
 						<id>enforce-versions</id>
