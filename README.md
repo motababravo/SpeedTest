@@ -18,7 +18,7 @@ Compiling
 Docker
 ------
 
-	docker run --name speedtest -p 80:8080 motababravo/speedtest
+	docker run --name speedtest -p 80:8080 motababravo/speedtest:amd64/aarch64
 
 
 Running
