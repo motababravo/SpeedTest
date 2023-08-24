@@ -7,7 +7,7 @@ Useful when you can't use iperf. :-)
 Requirements
 ------------
 * openjdk11
-* Tomcat 7-9 (or any Servlet 3.0-compliant server)
+* Tomcat 9 (or any Servlet 3.0-compliant server)
 * Maven 3 for compiling
 
 Compiling
@@ -16,10 +16,11 @@ Compiling
 	mvn clean package
 
 
-App Server
+Tomcat
 ----------
 
 Deploy `target/speedtest.war` into a Servlet 3.0 server (e.g. Tomcat 9).
+
 
 
 Docker
