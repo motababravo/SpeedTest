@@ -15,6 +15,12 @@ Compiling
 
 	mvn clean package
 
+Docker
+------
+
+	docker run --name speedtest -p 80:8080 motababravo/speedtest
+
+
 Running
 -------
 Deploy `target/speedtest.war` into a Servlet 3.0 server (e.g. Tomcat 9).
