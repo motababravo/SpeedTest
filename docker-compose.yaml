@@ -5,5 +5,5 @@ services:
     container_name: speedtest
     network_mode: bridge
     ports:
-    - '7878:8080'
+    - '80:8080'
     image: motababravo/speedtest
