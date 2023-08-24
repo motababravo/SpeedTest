@@ -1,8 +1,8 @@
 FROM alpine
 
 RUN mkdir /opt/tomcat/
-RUN apk add openjdk11
-RUN apk add curl
+RUN apk add --no-cache openjdk11
+RUN apk add --no-cache curl
 
 WORKDIR /opt/tomcat
 RUN curl -o apache-tomcat.tar.gz https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz
