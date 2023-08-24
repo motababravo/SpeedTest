@@ -17,7 +17,7 @@ Compiling
 
 Running
 -------
-Deploy `target/speedtest.war` into a Servlet 3.0 server (e.g. Tomcat 7).
+Deploy `target/speedtest.war` into a Servlet 3.0 server (e.g. Tomcat 9).
 
 Test download:	`curl -o /dev/null http://server/speedtest/<size>[kKmMgG]`
 
