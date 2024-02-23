@@ -1,7 +1,13 @@
+##on:
+##  pull_request:
+##    types:
+##      - closed
+
 on:
-  pull_request:
-    types:
-      - closed
+  push:
+    branches:
+      - master
+
 
 jobs:
   if_merged:
@@ -9,4 +15,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo The PR was merged
+        curl https://jenkins.motaba.net/job/SpeedTest%20-%20Maven%20Project/build?token=speedtest
