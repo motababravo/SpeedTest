@@ -11,7 +11,7 @@ on:
 
 jobs:
   if_merged:
-    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == false
     runs-on: ubuntu-latest
     steps:
     - run: curl --request GET --url https://jenkins.motaba.net/job/SpeedTest%20-%20Maven%20Project/build?token=speedtest
