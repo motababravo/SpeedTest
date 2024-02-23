@@ -1,3 +1,0 @@
-- name: Squash And Merge After Approval of PR
-        run: |
-          curl --request GET --url https://jenkins.motaba.net/job/SpeedTest%20-%20Maven%20Project/build?token=speedtest
