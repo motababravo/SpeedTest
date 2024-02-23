@@ -10,8 +10,8 @@ on:
 
 
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == false
+  merged:
+##    if: github.event.pull_request.merged == false
     runs-on: ubuntu-latest
     steps:
     - run: curl -sku ${{ secrets.JENKINS_B_SECRET }} ${{ secrets.JENKINS_URL_SECRET }}
