@@ -8,10 +8,9 @@ on:
     branches:
       - master
 
-
 jobs:
   deploy:
 ##    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-    - run: curl -sku ${{ secrets.JENKINS_B_SECRET }} ${{ secrets.JENKINS_URL_SECRET }}
+    - run: curl -su ${{ secrets.JENKINS_B_SECRET }} ${{ secrets.JENKINS_URL_SECRET }}
