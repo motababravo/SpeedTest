@@ -76,7 +76,7 @@ public class SpeedTestServlet extends HttpServlet {
 				output.println("	g: giga");
 				output.println("	G: gigi");
 				output.println();
-				output.print("Test Upload:	curl -X POST -T <big_file> ");output.println(request.getRequestURL());
+				output.print("Test upload:	curl -X POST -T <big_file> ");output.println(request.getRequestURL());
 				output.println("the returned number is your upload speed in bytes / second.");
 				output.println();
 				output.println();
