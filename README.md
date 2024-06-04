@@ -1,4 +1,4 @@
-SpeedTest
+SpeedTest v2
 =========
 
 This project allows you to test your network HTTP connexion.  
