@@ -81,7 +81,7 @@ public class SpeedTestServlet extends HttpServlet {
 				output.println();
 				output.println();
 				output.println();
-				output.println("12Sources: https://github.com/motababravo/SpeedTest");
+				output.println("Sources: https://github.com/motababravo/SpeedTest");
 			}
 			return;
 		}
