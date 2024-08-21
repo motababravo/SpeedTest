@@ -2,7 +2,7 @@ SpeedTest
 =========
 
 This project allows you to test your network HTTP connection.  
-Useful when you can't use iperf. :-)
+Useful when you can't use iperf. :-) 1
 
 Requirements
 ------------
