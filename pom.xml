@@ -219,7 +219,12 @@
 
 	<repositories></repositories>
 	<pluginRepositories></pluginRepositories>
-	<distributionManagement></distributionManagement>
+	<distributionManagement>
+	    <repository>
+    		<id>my-repo</id>
+    		<url>http://192.168.78.66:8081/repository/maven-releases</url>
+	    </repository>
+	</distributionManagement>
 
 	<profiles>
 		<profile>
