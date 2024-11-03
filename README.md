@@ -6,7 +6,7 @@ Useful when you can't use iperf. :-) 1
 
 Requirements
 ------------
-* openjdk11
+* openjdk17
 * Tomcat 9 (or any Servlet 3.0-compliant server)
 * Maven 3 for compiling
 
