@@ -227,7 +227,7 @@
         <distributionManagement>
             <repository>
                 <id>my-repo</id>
-                <url>http://dsm:8081/repository/maven-releases</url>
+                <url>https://nexus.motaba.net/repository/maven-releases</url>
             </repository>
         </distributionManagement>
 
