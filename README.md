@@ -1,4 +1,4 @@
-SpeedTest
+SpeedTest - proba
 =========
 
 This project allows you to test your network HTTP connection.  
